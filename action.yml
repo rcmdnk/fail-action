@@ -1,0 +1,10 @@
+name: 'Action to fail'
+author: 'rcmdnk'
+
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Fail
+      run: exit 1
+      shell: bash
